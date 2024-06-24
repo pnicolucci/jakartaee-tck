@@ -23,6 +23,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <%@ taglib prefix="tck" uri="http://java.sun.com/jstltck/jstltck-util" %>
 <%@ page import="java.util.Date" %>
+<%@ page isELIgnored="true" %>
 <tck:test testName="positiveFormatLocalizationContextI18NTest">
     <%  
         Date date = new Date(883192294202L);
